@@ -1,0 +1,32 @@
+/* pages/scroll/scroll.wxss 
+scrill-wrap不能给固定的高度，否则没有滚动效果
+*/
+view{
+    height: 200px;
+    width: 200px;
+    border: 2px solid rebeccapurple;
+    margin-top: 10px;
+}
+.scrill-wrap{
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+
+}
+.view-hover{
+    background-color: red;
+}
+.view1{
+    background-color: palegreen;
+}
+.view2{
+    background-color: palevioletred;
+}
+.view3{
+    background-color: papayawhip;
+}
+.view4{
+    background-color: plum;
+}

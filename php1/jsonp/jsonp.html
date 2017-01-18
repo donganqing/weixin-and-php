@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<button id="btn">请求数据</button>
+		<div id="box"></div>
+	</body>
+	<script>
+		function fn(data) {
+			console.log(data);
+		}
+
+		document.getElementById("btn").onclick = function() {
+			var oScript = document.createElement("script");//创建一个script标签
+			oScript.src = "jsonp.php?callback=fn";//给script标签设置src路径
+			document.body.appendChild(oScript);//把script标签加入到body中
+		}
+		
+	</script>
+
+</html>

@@ -1,0 +1,8 @@
+<template name="es6T">
+    <view>{{title}}</view>
+    <view>
+        <block wx:for="{{list}}">
+            <view>{{item}}</view>
+        </block>
+    </view>
+</template>

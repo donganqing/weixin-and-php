@@ -1,0 +1,7 @@
+<!--pages/scroll/scroll.wxml-->
+<scroll-view class="scroll-wrap" scroll-y="{{true}}">
+    <view class="view1" hover="{{true}}" hover-class="view-hover"></view>
+    <view class="view2" hover="{{true}}" hover-class="view-hover"></view>
+    <view class="view3"></view>
+    <view class="view4"></view>
+</scroll-view>

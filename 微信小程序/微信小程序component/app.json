@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/swiper/swiper",
+    "pages/scroll/scroll",
+    "pages/swiper-scroll/swiper-scroll"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ccc",
+    "navigationBarTitleText": "微信小程序",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "backgroundColor":"#ccc",
+    "selectedColor": "red",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "弹出窗口"
+    }, {
+      "pagePath": "pages/swiper/swiper",
+      "text": "上传图片+预览图片"
+    }, {
+      "pagePath": "pages/scroll/scroll",
+      "text": "scroll"
+    }, {
+      "pagePath": "pages/swiper-scroll/swiper-scroll",
+      "text": "swiper-scroll"
+    }]
+  }
+}

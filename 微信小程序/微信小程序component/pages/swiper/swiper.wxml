@@ -1,0 +1,4 @@
+<!--pages/swiper/swiper.wxml-->
+<text>pages/image/image.wxml</text>
+<button bindtap="onLoad">上传图片+预览图片</button>
+<image src="{{img}}"></image>

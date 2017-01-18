@@ -1,0 +1,11 @@
+<button class="refresh-bnt" hidden="{{notRefresh}}" loading="{{true}}">刷新中</button>
+<view hidden="{{false}}"  class="product-list">
+    <view wx:for="{{listData}}" wx:key="{{index}}" bindtap="itemtap" id="{{index}}" class="product-item">
+            <view>
+                <image src="{{footerballApi+item.img}}"></image>
+            </view>
+            <view class="litter">
+                <text>{{item.title}}</text>
+            </view>
+    </view>
+</view>

@@ -1,0 +1,25 @@
+.product-list{
+   display: flex;
+   flex-wrap: wrap; 
+}
+.product-item{
+   box-sizing: border-box;
+   width: 375rpx;
+   padding: 20rpx; 
+}
+.product-item image{
+    width: 335rpx;
+    height: 335rpx;
+}
+.litter{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20rpx;
+    color: blueviolet;
+    font-weight: bold;
+}
+.refresh-bnt{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}

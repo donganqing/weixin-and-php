@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<import src="../../template/header.wxml" />
+<import src="../../template/list.wxml" />
+<import src="../../template/moreParams.wxml" />
+
+<template is="header" data="{{title:title}}"/>
+<template is="list" data="{{list:list}}"/>
+<template is="es6T" data="{{...es6T}}"/>

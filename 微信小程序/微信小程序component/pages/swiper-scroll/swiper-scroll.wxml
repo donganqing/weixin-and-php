@@ -1,0 +1,21 @@
+<!--pages/swiper-scroll/swiper-scroll.wxml-->
+<scroll-view scroll-x="{{true}}" class="tabs-wrap" scroll-left="{{scrollLeft}}">
+    <view class="tabs-list">
+        <block wx:for="{{tabs}}" wx:key="{{index}}">
+            <view  bindtap="swiperTo"  class="tab-item {{index==current?'active':''}}" data-index="{{index}}">{{item}}</view>
+        </block>
+    </view>
+</scroll-view>
+<swiper class="swiper-wrap" bindchange="swiperChange" current="{{current}}">
+    <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+        <swiper-item>
+            <scroll-view class="list-scroll" scroll-y="{{true}}">
+                <image src="{{item}}"></image>
+                <image src="{{item}}"></image>
+                <image src="{{item}}"></image>
+                <image src="{{item}}"></image>
+            </scroll-view>
+            
+        </swiper-item>
+    </block>
+</swiper>

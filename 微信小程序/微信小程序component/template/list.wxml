@@ -1,0 +1,7 @@
+<template name="list">
+    <view class="list">
+        <block wx:for="{{list}}">
+            <view class="item">{{item}}</view>
+        </block>
+    </view>
+</template>

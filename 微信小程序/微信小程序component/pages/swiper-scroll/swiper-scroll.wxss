@@ -1,0 +1,40 @@
+/* pages/swiper-scroll/swiper-scroll.wxss */
+
+.tabs-wrap{
+    height: 46px;
+    width: auto;
+    white-space: nowrap;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.tab-item{
+    width: 85px;
+    display: inline-block;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+    border-bottom: 2px solid #ccc;
+    box-sizing: border-box;  
+}
+.tabs-wrap .active{
+    border-bottom: 2px solid red;
+}
+
+.swiper-wrap{
+    position: absolute;
+    left:0px;
+    top: 48px;
+    width: 100%;
+    bottom: 0px;
+    height: auto;
+}
+image{
+    width: 100%;
+}
+.list-scroll{
+    position: absolute;
+    top:0;
+    bottom:0;
+    width: 100%;
+    
+}
